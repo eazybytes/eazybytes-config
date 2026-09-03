@@ -1,6 +1,13 @@
 server:
   port: 8072
 
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+
 eureka:
   instance:
     preferIpAddress: true
